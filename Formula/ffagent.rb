@@ -1,4 +1,4 @@
-class FFAgent < Formula
+class Ffagent < Formula
     desc "Toolkit for Agents based on LLM"
     version "0.1.1"
     homepage "https://gitlab.com/waveix/pkg-ffagent"
