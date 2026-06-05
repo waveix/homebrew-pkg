@@ -1,0 +1,13 @@
+# See https://editorconfig.org for more information
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{Dockerfile,dockerignore,dsl,editorconfig,gitattributes,gitignore,gitkeep,gitmodules,helmignore,htm,html,js,json,md,svelte,toml,tpl,ts,xml,yaml,yml,sh,txt,Makefile,CODEOWNERS,rb}]
+charset = utf-8
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
