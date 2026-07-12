@@ -1,5 +1,5 @@
 class Ffagent < Formula
-    desc "Toolkit for Agents based on LLM"
+    desc "Framework for building LLM-based agents"
     version "0.1.1"
     homepage "https://gitlab.com/waveix/pkg-ffagent"
     url "https://gitlab.com/waveix/pkg-ffagent/-/archive/v0.1.1/pkg-ffagent-v0.1.1.tar.gz"
