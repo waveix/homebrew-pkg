@@ -11,11 +11,10 @@ brew install waveix/pkg/<name>
 
 ## Formulas
 
-| Package                                          | Install                           | Description                                                   | Formula                         |
-|--------------------------------------------------|-----------------------------------|---------------------------------------------------------------|---------------------------------|
-| [ffagent](https://gitlab.com/waveix/pkg-ffagent) | `brew install waveix/pkg/ffagent` | Framework for building LLM-based agents                       | [formula](./Formula/ffagent.rb) |
-| [aspm](https://gitlab.com/waveix/pkg-aspm)       | `brew install waveix/pkg/aspm`    | Package manager for distributing API Schemas as OCI artifacts | [formula](./Formula/aspm.rb)    |
-| [met](https://gitlab.com/waveix/pkg-met)         | `brew install waveix/pkg/met`     | Tool that helps manage Microenterprise repository             | [formula](./Formula/met.rb)     |
+| Package                                    | Install                        | Description                                                   | Formula                      |
+|--------------------------------------------|--------------------------------|---------------------------------------------------------------|------------------------------|
+| [aspm](https://gitlab.com/waveix/pkg-aspm) | `brew install waveix/pkg/aspm` | Package manager for distributing API Schemas as OCI artifacts | [formula](./Formula/aspm.rb) |
+| [met](https://gitlab.com/waveix/pkg-met)   | `brew install waveix/pkg/met`  | Tool that helps manage Microenterprise repository             | [formula](./Formula/met.rb)  |
 
 ## Documentation
 
