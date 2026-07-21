@@ -1,8 +1,8 @@
 class Aspm < Formula
-    desc "Package manager for distributing API Schemas as OCI artifacts"
+    desc "Package manager for distributing API Schemas as OCI artifacts (ASPM)"
     version "0.1.0"
-    homepage "https://gitlab.com/waveix/pkg-aspm"
-    url "https://gitlab.com/waveix/pkg-aspm/-/archive/v0.1.0/pkg-aspm-v0.1.0.tar.gz"
+    homepage "https://gitlab.com/waveix/aspm"
+    url "https://gitlab.com/waveix/aspm/-/archive/v0.1.0/aspm-v0.1.0.tar.gz"
     sha256 "REPLACED_BY_CI"
 
     depends_on "go" => :build

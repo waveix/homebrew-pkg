@@ -11,10 +11,10 @@ brew install waveix/pkg/<name>
 
 ## Formulas
 
-| Package                                    | Install                        | Description                                                   | Formula                      |
-|--------------------------------------------|--------------------------------|---------------------------------------------------------------|------------------------------|
-| [aspm](https://gitlab.com/waveix/pkg-aspm) | `brew install waveix/pkg/aspm` | Package manager for distributing API Schemas as OCI artifacts | [formula](./Formula/aspm.rb) |
-| [met](https://gitlab.com/waveix/pkg-met)   | `brew install waveix/pkg/met`  | Tool that helps manage Microenterprise repository             | [formula](./Formula/met.rb)  |
+| Package                                  | Install                         | Description                                                          | Formula                       |
+|------------------------------------------|---------------------------------|----------------------------------------------------------------------|-------------------------------|
+| [aspm](https://gitlab.com/waveix/aspm)   | `brew install waveix/pkg/aspm`  | Package manager for distributing API Schemas as OCI artifacts (ASPM) | [formula](./Formula/aspm.rb)  |
+| [meops](https://gitlab.com/waveix/meops) | `brew install waveix/pkg/meops` | Toolkit that helps manage Microenterprise repository (MEOps)         | [formula](./Formula/meops.rb) |
 
 ## Documentation
 
