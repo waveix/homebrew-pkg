@@ -5,13 +5,14 @@ class Aspm < Formula
     url "https://gitlab.com/waveix/aspm/-/archive/v0.1.0/aspm-v0.1.0.tar.gz"
     sha256 "REPLACED_BY_CI"
 
-    depends_on "go" => :build
+    depends_on "rust" => :build
 
     def install
-        system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}"), "./cmd/aspm"
+        ENV["ASPM_VERSION"] = version.to_s
+        system "cargo", "install", *std_cargo_args
     end
 
     test do
-        system "#{bin}/aspm", "--version"
+        assert_match version.to_s, shell_output("#{bin}/aspm --version")
     end
 end
