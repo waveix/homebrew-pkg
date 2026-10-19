@@ -1,5 +1,3 @@
-# See https://git-scm.com/docs/gitignore for more information
-
 *.gem
 *.rbc
 /.config
